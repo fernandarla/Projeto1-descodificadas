@@ -5,43 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pra você assistir</title>
-</head>
-<body>
-    <nav>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+
+
+        header{
+            
+            height: 300px;
+            background-image: url(img/A-Vaca-e-o-Frango.jpg);
+            opacity: 0.6;
+            background-position: right top;
+            background-size:contain;
         
+        }
+
+        body{
+            background-color: rgb(226, 217, 225);
+            align-items: center;
+        }
+
+        .class_do_cabeçalho{ 
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-around;
+        padding: 24px 24px 24px 24px;
+        gap: 70px;
+        }
+
+        .imagemfeed{
+            width: 80px;
+        }
+
+        nav{
+            display: flex;
+            align-items: end;
+            padding-left: 20px;
+            gap: 20px;
+        }
+
+        h3{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        -weight: 900;
+        color:rgb(173, 74, 145);
+        text-align: left;
+        padding: 50px 24px 50px;
+        }
+
+        div{
+            text-align: center;
+            padding-top: 40px;
+        }
+        
+        footer{
+            text-align:right;
+        padding:100px 20px 20px;
+        color: beige;
+        }
+
+        h2 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 24px;
+            color:rgb(173, 75, 145);
+            text-align: center;
+        
+        }
+
+        p{
+         text-align: center;
+         font-family: 'Open Sans', sans-serif;
+         font-size: 18px;
+         padding: 50px;
+         color: black;          
+        }
+
+        img{
+            text-align: center;
+            width:400px;
+            align-items: center;
+            padding: auto;
+            padding-left: 35%;
+
+        }
+
+        iframe{
+            text-align:center;
+            width: 500px;
+            padding-left: 30%;
+        }
+        
+       
+    </style>
+</head>
+<header>
+    <div class="class_do_cabeçalho">
+        <img class="imagemfeed" src="/img/saveee.jpg" width="80px">
+        <nav>
+
         <a href="index.html">Página inicial</a></li>
         <a href="Feed.html">Feed</a></li>
         <a href="praAssistir.html">Pra você assistir</a></li>
         <a href="participe.html">Participe</a></li>
     
-</nav>
+        </nav>
+    </div>
+
+</header>
+
+<body>
+   
 <h3>Gostou do tema e quer exemplos a seguir? Listamos alguns canais do Youtube pra você:</h3>
 
 <h2>Canal: Fabio Chaves</h2>
-<pre>Fabio Chaves é fundador e infoativista do Vista-se – o maior portal vegano da América Latina –, 
-    foi colunista do portal de notícias da Record TV, o R7, por 3 anos. 
-    É também autor do livro Nenhum Animal Merece Ser Considerado Um Ingrediente. </pre>
 
     <a href="https://www.youtube.com/@fabiochaves/featured"><img src="/img/fabio.jpg"></a>
 
-    <pre>Um de seus vídeos mais famosos "Do que é feita a salsicha?"
-
-
-        No seu canal Fábio fala sobre curiosidades veganas, marcas apoiadoras, 
-        ensina receitas e dá noticias sobre o mundo vegano num geral.</pre>
-
-    <iframe width="562" height="382" src="https://www.youtube.com/embed/kdUO3fWC_1Y" title="DO QUE É FEITA A SALSICHA?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p>Fabio Chaves é fundador e infoativista do Vista-se - o maior portal vegano da América Latina -, foi colunista do portal de notícias da Record TV, o R7, por 3 anos. É também autor do livro Nenhum Animal Merece Ser Considerado Um Ingrediente. </p>
+    <p>Um de seus vídeos mais famosos "Do que é feita a salsicha?" <br><br>No seu canal Fábio fala sobre curiosidades veganas, marcas apoiadoras, receitas e dá noticias sobre o mundo vegano num geral.</p>
+    <br> 
+    <iframe width="562" height="382" src="https://www.youtube.com/embed/kdUO3fWC_1Y" title="DO QUE É FEITA A SALSICHA?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
 
   
 <br><br>
 
 <h2>Canal: Larica Vegana</h2>
-    <p>Seja vegano, gostoso demais!!!</p>
-<a href="https://www.youtube.com/@LaricaVegana"><img src="/img/larica.jpg"></a>
 
-<pre>Sem essa de que vegano só come folha, se você tem medo de não poder mais comer 
-    hambúrguer, coxinha e cachorro quente, nesse canal Luísa Motta e seu irmão Tito Motta ensinam inúmeras 
-    receitas de junk food's, e tudo sem sofrimento animal.</pre>
+    <a href="https://www.youtube.com/@LaricaVegana"><img src="/img/larica.jpg"></a>
+
+    <p>Seja vegano, gostoso demais!!!</p>
+
+<p>Sem essa de que vegano só come folha, se você tem medo de não poder mais comer hambúrguer, coxinha e cachorro quente, nesse canal Luísa Motta e seu irmão Tito Motta ensinam inúmeras receitas de junk food's, e tudo sem sofrimento animal.</p>
 
 <iframe width="562" height="382" src="https://www.youtube.com/embed/pxxVvcgkmV0" title="HAMBÚRGUER COM CHEDDAR VEGANO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
  
@@ -49,24 +145,21 @@
 
 
 <h2>Canal: Imagina Vegan</h2>
-    <p>"Aqui você encontra receitas veganas práticas e afetivas e também vivências da minha maternidade vegana 🌱 "</p>
-<a href="https://www.youtube.com/@imaginavegan"><img src="/img/imagina vegan.jpg"></a>
+    <a href="https://www.youtube.com/@imaginavegan"><img src="/img/imagina vegan.jpg"></a>
 
-    <p>Acompanhada de sua filha Antonela, a Claiti Cortes faz receitas simples, veganas e bem atrativas 
-    para as crianças em seu canal e instagram.</p>
+    <p>"Aqui você encontra receitas veganas práticas e afetivas e também vivências da minha maternidade vegana 🌱 "</p>
+    <p>Acompanhada de sua filha Antonela, a Claiti Cortes faz receitas simples, veganas e bem atrativas para as crianças em seu canal e instagram.</p>
 <iframe width="562" height="382" src="https://www.youtube.com/embed/EzpZE5BmaQc" title="MOUSSE VEGANO DE CHOCOLATE | 2 versões fáceis e práticas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     
     <br><br>
 
 
 <h2>Canal: VegetariRango</h2>
-    <p>Programa de Culinária Vegana apresentado por Flavio Giusti, que ensina a cozinhar de uma forma BEM descontraída</p>
-<a href="https://www.youtube.com/vegetarirango"><img src="/img/VegetariRango.jpg"></a>
+    <a href="https://www.youtube.com/vegetarirango"><img src="/img/VegetariRango.jpg"></a>
+
+<p>Programa de Culinária Vegana apresentado por Flavio Giusti, que ensina a cozinhar de uma forma BEM descontraída</p>
 <br><br><br>
 <iframe width="562" height="382" src="https://www.youtube.com/embed/Hc2imCG6KEQ" title="BOLO DE CENOURA SEM ERRO - FÁCIL, sem ovos, fofinho, econômico e Vegano!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <pre>"Todo mundo gosta de bolo de cenoura. Então eu decidi ensinar como fazer um bolo de cenoura sem ovo 
-    e com chocolate vegano. Pra você poder comer a vontade e não fazer mal aos bichinhos.
-
-    Esquece a dieta e aproveita essa receita vegana maravilhosa!"</pre>
+    <p>"Todo mundo gosta de bolo de cenoura. Então eu decidi ensinar como fazer um bolo de cenoura sem ovo e com chocolate vegano. <br>Pra você poder comer a vontade e não fazer mal aos bichinhos. Esquece a dieta e aproveita essa receita vegana maravilhosa!"</p>
 </body>
 </html>
